@@ -30,4 +30,4 @@ Différences clés observées :
 2. Activer l'environnement virtuel : `venv\Scripts\activate` (Windows)
 3. Installer les dépendances : `pip install -r requirements.txt`
 4. Lancer le notebook Jupyter pour visualiser les étapes et les graphiques (`matplotlib`, `seaborn`).
-5. Lancer le Dashboard interactif : streamlit run dashboard.py
+5. Lancer le Dashboard interactif : `streamlit run dashboard.py`
