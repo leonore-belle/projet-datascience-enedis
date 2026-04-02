@@ -95,10 +95,10 @@ with col2:
 
         if "Logistique" in choice_classif:
             X_input_class = scaler.transform(X_classif)
-            acc_val = 0.94 
+            acc_val = 0.92 
         else:
             X_input_class = X_classif
-            acc_val = 0.97 
+            acc_val = 0.96 
 
         y_pred = model_classif.predict(X_input_class)
         
