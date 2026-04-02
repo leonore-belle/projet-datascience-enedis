@@ -17,8 +17,8 @@ L'enjeu est de réduire un dataset brut (plus de 8 millions de relevés) en prof
 ## Résultats et KPI Metrics
 Sur un échantillon de 500 résidences analysées, l'algorithme a identifié deux clusters distincts :
 
-- Résidences Principales (Cluster 0) : 285 foyers (57.0% du parc).
-- Résidences Secondaires (Cluster 1) : 215 foyers (43.0% du parc).
+- Résidences Principales (Cluster 0) : 428 foyers (85.6% du parc).
+- Résidences Secondaires (Cluster 1) : 72 foyers (14.4% du parc).
 
 Différences clés observées :
 - Économie d'énergie : Les résidences secondaires consomment en moyenne 22.1% de moins que les principales.
@@ -30,3 +30,4 @@ Différences clés observées :
 2. Activer l'environnement virtuel : `venv\Scripts\activate` (Windows)
 3. Installer les dépendances : `pip install -r requirements.txt`
 4. Lancer le notebook Jupyter pour visualiser les étapes et les graphiques (`matplotlib`, `seaborn`).
+5. Lancer le Dashboard interactif : `streamlit run dashboard.py`
